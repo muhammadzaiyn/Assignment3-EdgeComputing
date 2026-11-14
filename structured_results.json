@@ -1,0 +1,25 @@
+{
+  "chosen_ratio": 0.7,
+  "rule": "largest ratio with val drop <= 1.5 points",
+  "baseline_val_acc": 93.58,
+  "baseline_test_acc": 93.68,
+  "val_acc": 93.22,
+  "test_acc": 92.99,
+  "test_drop": 0.6900000000000119,
+  "params": 3487434,
+  "params_reduction_pct": 68.79,
+  "macs_m": 171.59,
+  "macs_reduction_pct": 69.11,
+  "mid_channels": [
+    19,
+    19,
+    38,
+    38,
+    77,
+    77,
+    154,
+    154
+  ],
+  "size_mb": 14.018763,
+  "quick": false
+}

@@ -1,0 +1,22 @@
+{
+  "os": "Windows 11 (10.0.26300)",
+  "python": "3.14.6",
+  "cpu": "AMD Ryzen 7 7700 8-Core Processor",
+  "cpu_logical_cores": 16,
+  "ram_gb": 16.2,
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "gpu_memory": "16311 MiB",
+  "driver": "610.88",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "torchvision": "0.26.0+cu128",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.32.0",
+  "dataset_source": "Hugging Face (uoft-cs/cifar10)",
+  "quantized_engine": "onednn",
+  "supported_quantized_engines": [
+    "onednn"
+  ],
+  "seed": 42,
+  "benchmark_time": "2026-11-13 20:36:06"
+}

@@ -1,0 +1,82 @@
+{
+  "opset": 17,
+  "torch": "2.11.0+cu128",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.32.0",
+  "fp32": {
+    "status": "ok",
+    "path": "onnx_models\\resnet18_fp32.onnx",
+    "max_abs_diff": 5.7220458984375e-06,
+    "pred_agreement": 1.0,
+    "size_mb": 44.685935,
+    "ops": [
+      "Add",
+      "Conv",
+      "Flatten",
+      "Gemm",
+      "GlobalAveragePool",
+      "Relu"
+    ]
+  },
+  "unstructured": {
+    "status": "ok",
+    "path": "onnx_models\\resnet18_unstructured.onnx",
+    "max_abs_diff": 5.7220458984375e-06,
+    "pred_agreement": 1.0,
+    "size_mb": 44.685935,
+    "ops": [
+      "Add",
+      "Conv",
+      "Flatten",
+      "Gemm",
+      "GlobalAveragePool",
+      "Relu"
+    ]
+  },
+  "structured": {
+    "status": "ok",
+    "path": "onnx_models\\resnet18_structured.onnx",
+    "max_abs_diff": 5.7220458984375e-06,
+    "pred_agreement": 1.0,
+    "size_mb": 13.945175,
+    "ops": [
+      "Add",
+      "Conv",
+      "Flatten",
+      "Gemm",
+      "GlobalAveragePool",
+      "Relu"
+    ]
+  },
+  "qat_int8": {
+    "status": "ok",
+    "path": "onnx_models\\resnet18_qat_int8_qdq.onnx",
+    "max_abs_diff_vs_fakequant": 0.09788799285888672,
+    "pred_agreement": 1.0,
+    "size_mb": 44.854108,
+    "ops": [
+      "Add",
+      "BatchNormalization",
+      "Constant",
+      "Conv",
+      "DequantizeLinear",
+      "Div",
+      "Flatten",
+      "Gemm",
+      "GlobalAveragePool",
+      "Identity",
+      "QuantizeLinear",
+      "Relu"
+    ],
+    "note": "weights are stored as float + QDQ nodes; ORT may run them as float"
+  },
+  "ort_ptq_int8": {
+    "status": "ok",
+    "path": "onnx_models\\resnet18_ort_ptq_int8.onnx",
+    "max_abs_diff_vs_fp32": 0.24039840698242188,
+    "pred_agreement_vs_fp32": 1.0,
+    "size_mb": 11.289858,
+    "calib_size": 1000,
+    "note": "ONNX Runtime PTQ (QDQ), a different quantizer from the PyTorch one"
+  }
+}

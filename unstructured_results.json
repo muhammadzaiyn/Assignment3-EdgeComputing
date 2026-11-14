@@ -1,0 +1,16 @@
+{
+  "baseline_val_acc": 93.58,
+  "baseline_test_acc": 93.68,
+  "final_val_acc": 94.1,
+  "test_acc": 93.69,
+  "test_drop": -0.009999999999990905,
+  "weight_sparsity_pct": 90.00000179141611,
+  "params_total": 11173962,
+  "params_nonzero": 1126045,
+  "size_mb": 44.776459,
+  "gzip_size_mb": 6.961884,
+  "fp32_size_mb": 44.773515,
+  "fp32_gzip_size_mb": 41.638182,
+  "train_minutes": 6.511221702893575,
+  "quick": false
+}

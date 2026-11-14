@@ -1,0 +1,16 @@
+{
+  "warmup": 50,
+  "runs": 300,
+  "repeats": 3,
+  "latency_threads": 1,
+  "throughput_threads": 16,
+  "throughput_batch": 128,
+  "test_images": 10000,
+  "cpu_load_before_pct": 34.1,
+  "cpu_load_during_latency_passes_pct": [
+    9.7,
+    9.5,
+    10.0
+  ],
+  "quick": false
+}

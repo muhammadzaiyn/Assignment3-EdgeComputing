@@ -1,0 +1,1202 @@
+{
+ "benchmark_summary.csv|fp32|params_total@0@False": {
+  "source": "benchmark_summary.csv|fp32|params_total",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,173,962"
+ },
+ "baseline_results.json|epochs@0@False": {
+  "source": "baseline_results.json|epochs",
+  "decimals": 0,
+  "absolute": false,
+  "text": "30"
+ },
+ "baseline_results.json|best_val_acc@2@False": {
+  "source": "baseline_results.json|best_val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.58"
+ },
+ "baseline_results.json|best_epoch@0@False": {
+  "source": "baseline_results.json|best_epoch",
+  "decimals": 0,
+  "absolute": false,
+  "text": "29"
+ },
+ "baseline_results.json|test_acc@2@False": {
+  "source": "baseline_results.json|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "baseline_results.json|train_minutes@1@False": {
+  "source": "baseline_results.json|train_minutes",
+  "decimals": 1,
+  "absolute": false,
+  "text": "16.5"
+ },
+ "ptq_results.json|calib_size@0@False": {
+  "source": "ptq_results.json|calib_size",
+  "decimals": 0,
+  "absolute": false,
+  "text": "1,000"
+ },
+ "ptq_results.json|quantized_conv_modules@0@False": {
+  "source": "ptq_results.json|quantized_conv_modules",
+  "decimals": 0,
+  "absolute": false,
+  "text": "20"
+ },
+ "ptq_results.json|ptq_test_acc@2@False": {
+  "source": "ptq_results.json|ptq_test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "ptq_results.json|fp32_test_acc@2@False": {
+  "source": "ptq_results.json|fp32_test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "ptq_results.json|test_drop@2@False": {
+  "source": "ptq_results.json|test_drop",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.00"
+ },
+ "ptq_results.json|fp32_size_mb@2@False": {
+  "source": "ptq_results.json|fp32_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.77"
+ },
+ "ptq_results.json|ptq_size_mb@2@False": {
+  "source": "ptq_results.json|ptq_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.43"
+ },
+ "ptq_results.json|size_ratio@2@False": {
+  "source": "ptq_results.json|size_ratio",
+  "decimals": 2,
+  "absolute": false,
+  "text": "3.92"
+ },
+ "ptq_results.json|fp32_val_acc@2@False": {
+  "source": "ptq_results.json|fp32_val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.56"
+ },
+ "ptq_calibration_size.csv|100|val_acc@2@False": {
+  "source": "ptq_calibration_size.csv|100|val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.56"
+ },
+ "ptq_calibration_size.csv|100|test_acc@2@False": {
+  "source": "ptq_calibration_size.csv|100|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.62"
+ },
+ "ptq_calibration_size.csv|500|val_acc@2@False": {
+  "source": "ptq_calibration_size.csv|500|val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.58"
+ },
+ "ptq_calibration_size.csv|500|test_acc@2@False": {
+  "source": "ptq_calibration_size.csv|500|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.69"
+ },
+ "ptq_calibration_size.csv|1000|val_acc@2@False": {
+  "source": "ptq_calibration_size.csv|1000|val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.56"
+ },
+ "ptq_calibration_size.csv|1000|test_acc@2@False": {
+  "source": "ptq_calibration_size.csv|1000|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "ptq_calibration_size.csv|2000|val_acc@2@False": {
+  "source": "ptq_calibration_size.csv|2000|val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.56"
+ },
+ "ptq_calibration_size.csv|2000|test_acc@2@False": {
+  "source": "ptq_calibration_size.csv|2000|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.63"
+ },
+ "qat_results.json|fake_quant_modules@0@False": {
+  "source": "qat_results.json|fake_quant_modules",
+  "decimals": 0,
+  "absolute": false,
+  "text": "51"
+ },
+ "qat_results.json|epochs@0@False": {
+  "source": "qat_results.json|epochs",
+  "decimals": 0,
+  "absolute": false,
+  "text": "8"
+ },
+ "qat_results.json|lr@3@False": {
+  "source": "qat_results.json|lr",
+  "decimals": 3,
+  "absolute": false,
+  "text": "0.005"
+ },
+ "qat_results.json|freeze_bn_epoch@0@False": {
+  "source": "qat_results.json|freeze_bn_epoch",
+  "decimals": 0,
+  "absolute": false,
+  "text": "3"
+ },
+ "qat_results.json|freeze_observer_epoch@0@False": {
+  "source": "qat_results.json|freeze_observer_epoch",
+  "decimals": 0,
+  "absolute": false,
+  "text": "4"
+ },
+ "qat_results.json|qat_test_acc@2@False": {
+  "source": "qat_results.json|qat_test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.32"
+ },
+ "qat_results.json|test_drop@2@False": {
+  "source": "qat_results.json|test_drop",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.36"
+ },
+ "qat_results.json|qat_size_mb@2@False": {
+  "source": "qat_results.json|qat_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.43"
+ },
+ "qat_results.json|train_minutes@1@False": {
+  "source": "qat_results.json|train_minutes",
+  "decimals": 1,
+  "absolute": false,
+  "text": "6.8"
+ },
+ "benchmark_summary.csv|ptq_int8|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|ptq_int8|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "benchmark_summary.csv|qat_int8|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|qat_int8|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.32"
+ },
+ "ptq_results.json|ptq_val_acc@2@False": {
+  "source": "ptq_results.json|ptq_val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.56"
+ },
+ "qat_results.json|qat_val_acc@2@False": {
+  "source": "qat_results.json|qat_val_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.74"
+ },
+ "benchmark_summary.csv|fp32|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|fp32|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "benchmark_summary.csv|fp32|accuracy_drop_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|fp32|accuracy_drop_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.00"
+ },
+ "benchmark_summary.csv|fp32|size_mb@2@False": {
+  "source": "benchmark_summary.csv|fp32|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.77"
+ },
+ "benchmark_summary.csv|fp32|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|fp32|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "11.937"
+ },
+ "benchmark_summary.csv|ptq_int8|accuracy_drop_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|ptq_int8|accuracy_drop_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.00"
+ },
+ "benchmark_summary.csv|ptq_int8|size_mb@2@False": {
+  "source": "benchmark_summary.csv|ptq_int8|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.43"
+ },
+ "benchmark_summary.csv|ptq_int8|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|ptq_int8|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.367"
+ },
+ "benchmark_summary.csv|qat_int8|accuracy_drop_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|qat_int8|accuracy_drop_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.36"
+ },
+ "benchmark_summary.csv|qat_int8|size_mb@2@False": {
+  "source": "benchmark_summary.csv|qat_int8|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.43"
+ },
+ "benchmark_summary.csv|qat_int8|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|qat_int8|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.386"
+ },
+ "unstructured_iterations.csv|1|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|1|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "40.00"
+ },
+ "unstructured_iterations.csv|1|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|1|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.42"
+ },
+ "unstructured_iterations.csv|1|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|1|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.82"
+ },
+ "unstructured_iterations.csv|2|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|2|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "60.00"
+ },
+ "unstructured_iterations.csv|2|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|2|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.46"
+ },
+ "unstructured_iterations.csv|2|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|2|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.70"
+ },
+ "unstructured_iterations.csv|3|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|3|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "75.00"
+ },
+ "unstructured_iterations.csv|3|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|3|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "84.44"
+ },
+ "unstructured_iterations.csv|3|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|3|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.90"
+ },
+ "unstructured_iterations.csv|4|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|4|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "85.00"
+ },
+ "unstructured_iterations.csv|4|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|4|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "82.00"
+ },
+ "unstructured_iterations.csv|4|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|4|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.82"
+ },
+ "unstructured_iterations.csv|5|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|5|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "90.00"
+ },
+ "unstructured_iterations.csv|5|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|5|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "86.52"
+ },
+ "unstructured_iterations.csv|5|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|5|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.76"
+ },
+ "unstructured_iterations.csv|final|measured_sparsity_pct@2@False": {
+  "source": "unstructured_iterations.csv|final|measured_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "90.00"
+ },
+ "unstructured_iterations.csv|final|val_acc_before_ft@2@False": {
+  "source": "unstructured_iterations.csv|final|val_acc_before_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.76"
+ },
+ "unstructured_iterations.csv|final|val_acc_after_ft@2@False": {
+  "source": "unstructured_iterations.csv|final|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "94.10"
+ },
+ "unstructured_results.json|weight_sparsity_pct@2@False": {
+  "source": "unstructured_results.json|weight_sparsity_pct",
+  "decimals": 2,
+  "absolute": false,
+  "text": "90.00"
+ },
+ "unstructured_results.json|params_nonzero@0@False": {
+  "source": "unstructured_results.json|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "1,126,045"
+ },
+ "unstructured_results.json|params_total@0@False": {
+  "source": "unstructured_results.json|params_total",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,173,962"
+ },
+ "unstructured_results.json|test_acc@2@False": {
+  "source": "unstructured_results.json|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.69"
+ },
+ "unstructured_results.json|test_drop@2@True": {
+  "source": "unstructured_results.json|test_drop",
+  "decimals": 2,
+  "absolute": true,
+  "text": "0.01"
+ },
+ "unstructured_results.json|size_mb@2@False": {
+  "source": "unstructured_results.json|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.78"
+ },
+ "unstructured_results.json|fp32_size_mb@2@False": {
+  "source": "unstructured_results.json|fp32_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.77"
+ },
+ "unstructured_results.json|gzip_size_mb@2@False": {
+  "source": "unstructured_results.json|gzip_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "6.96"
+ },
+ "unstructured_results.json|fp32_gzip_size_mb@2@False": {
+  "source": "unstructured_results.json|fp32_gzip_size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "41.64"
+ },
+ "structured_sweep.csv|0.0|params@0@False": {
+  "source": "structured_sweep.csv|0.0|params",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,173,962"
+ },
+ "structured_sweep.csv|0.0|params_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.0|params_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "structured_sweep.csv|0.0|macs_m@1@False": {
+  "source": "structured_sweep.csv|0.0|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "555.4"
+ },
+ "structured_sweep.csv|0.0|macs_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.0|macs_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "structured_sweep.csv|0.0|val_acc_after_prune@2@False": {
+  "source": "structured_sweep.csv|0.0|val_acc_after_prune",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.58"
+ },
+ "structured_sweep.csv|0.0|val_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.0|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.58"
+ },
+ "structured_sweep.csv|0.0|test_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.0|test_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "structured_sweep.csv|0.0|cpu_p50_ms@3@False": {
+  "source": "structured_sweep.csv|0.0|cpu_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "11.641"
+ },
+ "structured_sweep.csv|0.3|params@0@False": {
+  "source": "structured_sweep.csv|0.3|params",
+  "decimals": 0,
+  "absolute": false,
+  "text": "7,871,178"
+ },
+ "structured_sweep.csv|0.3|params_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.3|params_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "29.6"
+ },
+ "structured_sweep.csv|0.3|macs_m@1@False": {
+  "source": "structured_sweep.csv|0.3|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "391.9"
+ },
+ "structured_sweep.csv|0.3|macs_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.3|macs_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "29.4"
+ },
+ "structured_sweep.csv|0.3|val_acc_after_prune@2@False": {
+  "source": "structured_sweep.csv|0.3|val_acc_after_prune",
+  "decimals": 2,
+  "absolute": false,
+  "text": "74.06"
+ },
+ "structured_sweep.csv|0.3|val_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.3|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "94.06"
+ },
+ "structured_sweep.csv|0.3|test_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.3|test_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.84"
+ },
+ "structured_sweep.csv|0.3|cpu_p50_ms@3@False": {
+  "source": "structured_sweep.csv|0.3|cpu_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "9.390"
+ },
+ "structured_sweep.csv|0.5|params@0@False": {
+  "source": "structured_sweep.csv|0.5|params",
+  "decimals": 0,
+  "absolute": false,
+  "text": "5,679,306"
+ },
+ "structured_sweep.csv|0.5|params_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.5|params_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "49.2"
+ },
+ "structured_sweep.csv|0.5|macs_m@1@False": {
+  "source": "structured_sweep.csv|0.5|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "281.7"
+ },
+ "structured_sweep.csv|0.5|macs_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.5|macs_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "49.3"
+ },
+ "structured_sweep.csv|0.5|val_acc_after_prune@2@False": {
+  "source": "structured_sweep.csv|0.5|val_acc_after_prune",
+  "decimals": 2,
+  "absolute": false,
+  "text": "28.52"
+ },
+ "structured_sweep.csv|0.5|val_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.5|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.46"
+ },
+ "structured_sweep.csv|0.5|test_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.5|test_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.35"
+ },
+ "structured_sweep.csv|0.5|cpu_p50_ms@3@False": {
+  "source": "structured_sweep.csv|0.5|cpu_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "6.780"
+ },
+ "structured_sweep.csv|0.7|params@0@False": {
+  "source": "structured_sweep.csv|0.7|params",
+  "decimals": 0,
+  "absolute": false,
+  "text": "3,487,434"
+ },
+ "structured_sweep.csv|0.7|params_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.7|params_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "68.8"
+ },
+ "structured_sweep.csv|0.7|macs_m@1@False": {
+  "source": "structured_sweep.csv|0.7|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "171.6"
+ },
+ "structured_sweep.csv|0.7|macs_reduction_pct@1@False": {
+  "source": "structured_sweep.csv|0.7|macs_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "69.1"
+ },
+ "structured_sweep.csv|0.7|val_acc_after_prune@2@False": {
+  "source": "structured_sweep.csv|0.7|val_acc_after_prune",
+  "decimals": 2,
+  "absolute": false,
+  "text": "9.84"
+ },
+ "structured_sweep.csv|0.7|val_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.7|val_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.22"
+ },
+ "structured_sweep.csv|0.7|test_acc_after_ft@2@False": {
+  "source": "structured_sweep.csv|0.7|test_acc_after_ft",
+  "decimals": 2,
+  "absolute": false,
+  "text": "92.99"
+ },
+ "structured_sweep.csv|0.7|cpu_p50_ms@3@False": {
+  "source": "structured_sweep.csv|0.7|cpu_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "4.856"
+ },
+ "structured_results.json|params_reduction_pct@1@False": {
+  "source": "structured_results.json|params_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "68.8"
+ },
+ "structured_results.json|macs_reduction_pct@1@False": {
+  "source": "structured_results.json|macs_reduction_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "69.1"
+ },
+ "structured_results.json|test_acc@2@False": {
+  "source": "structured_results.json|test_acc",
+  "decimals": 2,
+  "absolute": false,
+  "text": "92.99"
+ },
+ "structured_results.json|test_drop@2@True": {
+  "source": "structured_results.json|test_drop",
+  "decimals": 2,
+  "absolute": true,
+  "text": "0.69"
+ },
+ "onnx_export.json|fp32|size_mb@2@False": {
+  "source": "onnx_export.json|fp32|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.69"
+ },
+ "onnx_export.json|unstructured|size_mb@2@False": {
+  "source": "onnx_export.json|unstructured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.69"
+ },
+ "onnx_export.json|structured|size_mb@2@False": {
+  "source": "onnx_export.json|structured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "13.95"
+ },
+ "onnx_export.json|qat_int8|size_mb@2@False": {
+  "source": "onnx_export.json|qat_int8|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.85"
+ },
+ "onnx_export.json|ort_ptq_int8|size_mb@2@False": {
+  "source": "onnx_export.json|ort_ptq_int8|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.29"
+ },
+ "benchmark_summary.csv|fp32|params_nonzero@0@False": {
+  "source": "benchmark_summary.csv|fp32|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,173,962"
+ },
+ "benchmark_summary.csv|fp32|sparsity_pct@1@False": {
+  "source": "benchmark_summary.csv|fp32|sparsity_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "benchmark_summary.csv|fp32|macs_m@1@False": {
+  "source": "benchmark_summary.csv|fp32|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "555.4"
+ },
+ "benchmark_summary.csv|fp32|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|fp32|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "13.613"
+ },
+ "benchmark_summary.csv|fp32|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|fp32|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "130"
+ },
+ "benchmark_summary.csv|fp32|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|fp32|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.00"
+ },
+ "benchmark_summary.csv|ptq_int8|params_nonzero@0@False": {
+  "source": "benchmark_summary.csv|ptq_int8|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,169,162"
+ },
+ "benchmark_summary.csv|ptq_int8|sparsity_pct@1@False": {
+  "source": "benchmark_summary.csv|ptq_int8|sparsity_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "benchmark_summary.csv|ptq_int8|macs_m@1@False": {
+  "source": "benchmark_summary.csv|ptq_int8|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "555.4"
+ },
+ "benchmark_summary.csv|ptq_int8|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|ptq_int8|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.800"
+ },
+ "benchmark_summary.csv|ptq_int8|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|ptq_int8|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "559"
+ },
+ "benchmark_summary.csv|ptq_int8|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|ptq_int8|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "5.04"
+ },
+ "benchmark_summary.csv|qat_int8|params_nonzero@0@False": {
+  "source": "benchmark_summary.csv|qat_int8|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "11,169,162"
+ },
+ "benchmark_summary.csv|qat_int8|sparsity_pct@1@False": {
+  "source": "benchmark_summary.csv|qat_int8|sparsity_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "benchmark_summary.csv|qat_int8|macs_m@1@False": {
+  "source": "benchmark_summary.csv|qat_int8|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "555.4"
+ },
+ "benchmark_summary.csv|qat_int8|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|qat_int8|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.853"
+ },
+ "benchmark_summary.csv|qat_int8|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|qat_int8|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "560"
+ },
+ "benchmark_summary.csv|qat_int8|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|qat_int8|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "5.00"
+ },
+ "benchmark_summary.csv|unstructured|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|unstructured|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.69"
+ },
+ "benchmark_summary.csv|unstructured|accuracy_drop_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|unstructured|accuracy_drop_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "-0.01"
+ },
+ "benchmark_summary.csv|unstructured|size_mb@2@False": {
+  "source": "benchmark_summary.csv|unstructured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.78"
+ },
+ "benchmark_summary.csv|unstructured|params_nonzero@0@False": {
+  "source": "benchmark_summary.csv|unstructured|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "1,126,045"
+ },
+ "benchmark_summary.csv|unstructured|sparsity_pct@1@False": {
+  "source": "benchmark_summary.csv|unstructured|sparsity_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "90.0"
+ },
+ "benchmark_summary.csv|unstructured|macs_m@1@False": {
+  "source": "benchmark_summary.csv|unstructured|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "555.4"
+ },
+ "benchmark_summary.csv|unstructured|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|unstructured|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "11.861"
+ },
+ "benchmark_summary.csv|unstructured|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|unstructured|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "13.296"
+ },
+ "benchmark_summary.csv|unstructured|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|unstructured|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "132"
+ },
+ "benchmark_summary.csv|unstructured|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|unstructured|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.01"
+ },
+ "benchmark_summary.csv|structured|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|structured|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "92.99"
+ },
+ "benchmark_summary.csv|structured|accuracy_drop_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|structured|accuracy_drop_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.69"
+ },
+ "benchmark_summary.csv|structured|size_mb@2@False": {
+  "source": "benchmark_summary.csv|structured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "14.02"
+ },
+ "benchmark_summary.csv|structured|params_nonzero@0@False": {
+  "source": "benchmark_summary.csv|structured|params_nonzero",
+  "decimals": 0,
+  "absolute": false,
+  "text": "3,487,434"
+ },
+ "benchmark_summary.csv|structured|sparsity_pct@1@False": {
+  "source": "benchmark_summary.csv|structured|sparsity_pct",
+  "decimals": 1,
+  "absolute": false,
+  "text": "0.0"
+ },
+ "benchmark_summary.csv|structured|macs_m@1@False": {
+  "source": "benchmark_summary.csv|structured|macs_m",
+  "decimals": 1,
+  "absolute": false,
+  "text": "171.6"
+ },
+ "benchmark_summary.csv|structured|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|structured|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "4.817"
+ },
+ "benchmark_summary.csv|structured|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|structured|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "5.312"
+ },
+ "benchmark_summary.csv|structured|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|structured|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "273"
+ },
+ "benchmark_summary.csv|structured|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|structured|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "2.48"
+ },
+ "benchmark_summary.csv|onnx_fp32|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "benchmark_summary.csv|onnx_fp32|size_mb@2@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.69"
+ },
+ "benchmark_summary.csv|onnx_fp32|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "7.879"
+ },
+ "benchmark_summary.csv|onnx_fp32|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "8.932"
+ },
+ "benchmark_summary.csv|onnx_fp32|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "149"
+ },
+ "benchmark_summary.csv|onnx_fp32|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|onnx_fp32|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.52"
+ },
+ "benchmark_summary.csv|onnx_unstructured|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.69"
+ },
+ "benchmark_summary.csv|onnx_unstructured|size_mb@2@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.69"
+ },
+ "benchmark_summary.csv|onnx_unstructured|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "7.865"
+ },
+ "benchmark_summary.csv|onnx_unstructured|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "9.159"
+ },
+ "benchmark_summary.csv|onnx_unstructured|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "148"
+ },
+ "benchmark_summary.csv|onnx_unstructured|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|onnx_unstructured|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.52"
+ },
+ "benchmark_summary.csv|onnx_structured|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|onnx_structured|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "92.99"
+ },
+ "benchmark_summary.csv|onnx_structured|size_mb@2@False": {
+  "source": "benchmark_summary.csv|onnx_structured|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "13.95"
+ },
+ "benchmark_summary.csv|onnx_structured|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_structured|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.711"
+ },
+ "benchmark_summary.csv|onnx_structured|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_structured|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "3.195"
+ },
+ "benchmark_summary.csv|onnx_structured|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|onnx_structured|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "332"
+ },
+ "benchmark_summary.csv|onnx_structured|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|onnx_structured|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "4.40"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.35"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|size_mb@2@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.85"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "10.514"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "12.821"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "103"
+ },
+ "benchmark_summary.csv|onnx_qat_int8_qdq|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|onnx_qat_int8_qdq|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.14"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.63"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|size_mb@2@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "11.29"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "1.990"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.406"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "497"
+ },
+ "benchmark_summary.csv|onnx_ort_ptq_int8|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|onnx_ort_ptq_int8|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "6.00"
+ },
+ "benchmark_summary.csv|fp32_gpu|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.68"
+ },
+ "benchmark_summary.csv|fp32_gpu|size_mb@2@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.77"
+ },
+ "benchmark_summary.csv|fp32_gpu|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.624"
+ },
+ "benchmark_summary.csv|fp32_gpu|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.776"
+ },
+ "benchmark_summary.csv|fp32_gpu|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "10,183"
+ },
+ "benchmark_summary.csv|fp32_gpu|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|fp32_gpu|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "1.00"
+ },
+ "benchmark_summary.csv|unstructured_gpu|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "93.69"
+ },
+ "benchmark_summary.csv|unstructured_gpu|size_mb@2@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "44.78"
+ },
+ "benchmark_summary.csv|unstructured_gpu|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.645"
+ },
+ "benchmark_summary.csv|unstructured_gpu|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.858"
+ },
+ "benchmark_summary.csv|unstructured_gpu|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "10,171"
+ },
+ "benchmark_summary.csv|unstructured_gpu|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|unstructured_gpu|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.99"
+ },
+ "benchmark_summary.csv|structured_gpu|test_accuracy@2@False": {
+  "source": "benchmark_summary.csv|structured_gpu|test_accuracy",
+  "decimals": 2,
+  "absolute": false,
+  "text": "92.99"
+ },
+ "benchmark_summary.csv|structured_gpu|size_mb@2@False": {
+  "source": "benchmark_summary.csv|structured_gpu|size_mb",
+  "decimals": 2,
+  "absolute": false,
+  "text": "14.02"
+ },
+ "benchmark_summary.csv|structured_gpu|latency_p50_ms@3@False": {
+  "source": "benchmark_summary.csv|structured_gpu|latency_p50_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.742"
+ },
+ "benchmark_summary.csv|structured_gpu|latency_p99_ms@3@False": {
+  "source": "benchmark_summary.csv|structured_gpu|latency_p99_ms",
+  "decimals": 3,
+  "absolute": false,
+  "text": "2.935"
+ },
+ "benchmark_summary.csv|structured_gpu|throughput_img_s@0@False": {
+  "source": "benchmark_summary.csv|structured_gpu|throughput_img_s",
+  "decimals": 0,
+  "absolute": false,
+  "text": "13,054"
+ },
+ "benchmark_summary.csv|structured_gpu|speedup_vs_fp32@2@False": {
+  "source": "benchmark_summary.csv|structured_gpu|speedup_vs_fp32",
+  "decimals": 2,
+  "absolute": false,
+  "text": "0.96"
+ }
+}

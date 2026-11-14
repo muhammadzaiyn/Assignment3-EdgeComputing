@@ -1,0 +1,14 @@
+{
+  "backend": "onednn",
+  "calib_size": 1000,
+  "quantized_conv_modules": 20,
+  "fp32_val_acc": 93.56,
+  "fp32_test_acc": 93.68,
+  "ptq_val_acc": 93.56,
+  "ptq_test_acc": 93.68,
+  "test_drop": 0.0,
+  "fp32_size_mb": 44.773515,
+  "ptq_size_mb": 11.426973,
+  "size_ratio": 3.9182305760239395,
+  "quick": false
+}

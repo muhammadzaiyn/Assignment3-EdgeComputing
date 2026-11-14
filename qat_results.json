@@ -1,0 +1,19 @@
+{
+  "backend": "onednn",
+  "epochs": 8,
+  "lr": 0.005,
+  "freeze_bn_epoch": 3,
+  "freeze_observer_epoch": 4,
+  "fake_quant_modules": 51,
+  "quantized_conv_modules": 20,
+  "fake_quant_val_acc": 93.72,
+  "qat_val_acc": 93.74,
+  "qat_test_acc": 93.32,
+  "fp32_test_acc": 93.68,
+  "test_drop": 0.36000000000001364,
+  "fp32_size_mb": 44.773515,
+  "qat_size_mb": 11.427229,
+  "size_ratio": 3.9181427973483336,
+  "train_minutes": 6.789977788925171,
+  "quick": false
+}

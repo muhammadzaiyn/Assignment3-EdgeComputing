@@ -1,0 +1,8 @@
+{
+  "best_epoch": 29,
+  "best_val_acc": 93.58,
+  "test_acc": 93.68,
+  "epochs": 30,
+  "train_minutes": 16.459276231129966,
+  "quick": false
+}
